@@ -1,0 +1,258 @@
+body {
+  background-color: black;
+  background-image: url("../images/background.png");
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+body input {
+  color: black;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+select {
+  color: black;
+}
+
+
+/*Add Fighter*/
+
+.statContainer img {
+  margin-top: 10px;
+  width: 40px;
+}
+
+.statBox {
+  width: 60px;
+  height: 60px;
+  border-style: double;
+  border-color: grey;
+  border-width: 5px;
+}
+
+.footnote {
+  font-size: 15px;
+}
+
+#headshot {
+  background-color: #B3ECFF;
+  width: 450px;
+  height: 450px;
+  float: right;
+}
+
+#headshot img {
+  width: 450px;
+  height: 450px;
+}
+
+#statOutput {
+  float: right;
+  width: 450px;
+  height: 100px;
+}
+
+#statOutput img {
+  width: 40px;
+  height: 40px;
+}
+
+#name {
+  float: left;
+}
+
+#statContainer {
+  float: left;
+}
+
+#menuContainer {
+  width: 1500px;
+  height: 800px;
+  padding: 30px;
+}
+
+#rightContainer {
+  padding-right: 300px;
+}
+
+#pointsRemainingContainer {
+  padding-right: 300px;
+}
+
+#submitButton {
+  padding: 20px;
+  margin-right: 300px;
+  float: right;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+#submitButton:disabled {
+  padding: 20px;
+  margin-right: 300px;
+  float: right;
+  border-radius: 10px;
+  background-color: gray;
+  color: black;
+}
+
+#imageSelection {
+  margin: 10px;
+}
+
+#pointTextspan{
+  font-size: 20px;
+}
+
+
+/*Fight Menu*/
+
+.fighterHeadshot {
+  background-color: #B3ECFF;
+  width: 350px;
+  height: 350px;
+}
+
+.fighterHeadshot img {
+  width: 350px;
+  height: 350px;
+}
+
+.fighterStats {
+  font-size: 25px;
+  width: 450px;
+  height: 100px;
+}
+
+.fighterStats img {
+  width: 30px;
+  height: 30px;
+}
+
+.lowerStats {
+  margin-left: 30px;
+}
+
+.moveSelector {
+  color: black;
+  width: 250px;
+  height: 50px;
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.moveSelector:hover {
+  cursor: pointer;
+}
+
+.critical {
+  color: red;
+}
+
+.fighterHeader {
+  white-space : nowrap;
+}
+
+#fightUI {
+  display: none;
+}
+
+#gameLog {
+  margin-left: 100px;
+  margin-top: 325px;
+  border-style: double;
+  border-color: grey;
+  border-width: 5px;
+  width: 700px;
+  height: 500px;
+}
+
+#vsHeader {
+  font-size: 100px;
+  margin-left: 60px;
+  margin-top: 150px;
+}
+
+#jab {
+  background-color: red;
+}
+
+#hook {
+  background-color: orange;
+}
+
+#uppercut {
+  background-color: #ffff4d;
+}
+
+#block {
+  background-color: green;
+}
+
+#blind {
+  background-color: #0066ff;
+}
+
+#lockon {
+  background-color: #993399;
+}
+
+#burn {
+  background-color: violet;
+}
+
+#frost {
+  background-color: white;
+}
+
+#submitFightButton {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+#submitFightButton:disabled {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: gray;
+  color: black;
+}
+
+#endFightMenu {
+  display: none;
+}
+
+.leaderboard {
+  margin: auto;
+  background-color: gray;
+  border: white solid 1px;
+  width: 800px;
+  height: 60px;
+}
+
+.leaderboard img {
+  display: inline;
+  width:50px;
+  height: 50px;
+  margin-top: 3px;
+}
+
+.leaderboard h2 {
+  display: inline;
+}
+
+.leaderStats {
+  display: inline;
+  font-size: 16px;
+}
+
+.cursorHover:hover {
+  cursor: pointer;
+}
